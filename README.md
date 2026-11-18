@@ -269,3 +269,4 @@ For Streamlit Community Cloud select this repository, branch `main`, main file
 `app/Hosted.py`, and Python 3.12. The hosted entrypoint creates a reproducible
 1,500-lead demo on first startup; generated data/models remain ephemeral and local
 to that server. The local CLI still defaults to 30,000 leads. No secrets are needed.
+
