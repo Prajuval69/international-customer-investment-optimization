@@ -1,0 +1,16 @@
+seed: 42
+start_date: '2024-01-01'
+lead_end_date: '2025-03-31'
+observation_end: '2025-12-31'
+annual_discount_rate: 0.10
+channels: [Search, Social, Referral, Partnership]
+optimizer:
+  horizon_days: 180
+  default_budget_usd: 1000000
+  a_by_market: [1700, 1500, 1400, 1300, 1100]
+  value_by_market: [190, 260, 235, 225, 250]
+  incentive_by_market: [15, 30, 22, 22, 26]
+  channel_capacity_multipliers: [1.2, 1.0, 0.65, 0.85]
+  channel_scale_usd: [85000, 65000, 40000, 70000]
+  min_spend_usd: 0
+  max_spend_usd: 200000

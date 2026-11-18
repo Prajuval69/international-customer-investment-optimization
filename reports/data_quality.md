@@ -1,0 +1,51 @@
+# SIMULATED DATA — Data quality
+
+- PASS: markets: unique primary key
+- PASS: markets: required values present
+- PASS: markets.usd_per_local_unit: finite nonnegative money
+- PASS: campaign_budget: unique primary key
+- PASS: campaign_budget: required values present
+- PASS: campaign_budget.planned_spend_usd: finite nonnegative money
+- PASS: campaign_budget.actual_spend_usd: finite nonnegative money
+- PASS: campaign_budget.month_start: datetime type
+- PASS: leads: unique primary key
+- PASS: leads: required values present
+- PASS: leads.lead_date: datetime type
+- PASS: leads.conversion_date: datetime type
+- PASS: customers: unique primary key
+- PASS: customers: required values present
+- PASS: customers.acquisition_date: datetime type
+- PASS: transactions: unique primary key
+- PASS: transactions: required values present
+- PASS: transactions.gross_revenue_usd: finite nonnegative money
+- PASS: transactions.direct_variable_cost_usd: finite nonnegative money
+- PASS: transactions.servicing_cost_usd: finite nonnegative money
+- PASS: transactions.txn_date: datetime type
+- PASS: offer_payouts: unique primary key
+- PASS: offer_payouts: required values present
+- PASS: offer_payouts.incentive_cost_usd: finite nonnegative money
+- PASS: offer_payouts.payout_date: datetime type
+- PASS: five expected markets
+- PASS: positive illustrative FX
+- PASS: campaign grain unique
+- PASS: leads: market foreign key
+- PASS: leads: channel enum
+- PASS: customers: market foreign key
+- PASS: customers: channel enum
+- PASS: campaign_budget: market foreign key
+- PASS: campaign_budget: channel enum
+- PASS: binary conversions
+- PASS: known assignment arms
+- PASS: known offer variants
+- PASS: valid prelead features
+- PASS: conversion nullable fields consistent
+- PASS: one customer per lead
+- PASS: customers match conversions
+- PASS: conversion within 30 days
+- PASS: campaign attribution matches lead
+- PASS: customer attributes match lead
+- PASS: transaction foreign key and chronology
+- PASS: transaction contribution reconciliation
+- PASS: local to USD FX reconciliation
+- PASS: payouts only converted treatment once after conversion
+- PASS: events within observation end

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+data/
+artifacts/
+.env*
+reports/*.xlsx
+reports/screenshots/
+reports/*.html
+reports/verification/model_before_rerun.json
+reports/verification/source_before_rerun.json
+reports/verification/demo.txt
+reports/verification/smoke.txt
+*.log

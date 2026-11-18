@@ -1,0 +1,6 @@
+markets:
+  - {market: IN, name: India, local_currency: INR, usd_per_local_unit: 0.012}
+  - {market: GB, name: United Kingdom, local_currency: GBP, usd_per_local_unit: 1.25}
+  - {market: CA, name: Canada, local_currency: CAD, usd_per_local_unit: 0.74}
+  - {market: AU, name: Australia, local_currency: AUD, usd_per_local_unit: 0.66}
+  - {market: SG, name: Singapore, local_currency: SGD, usd_per_local_unit: 0.75}

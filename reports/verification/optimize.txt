@@ -1,0 +1,14 @@
+{
+  "budget_usd": 1000000.0,
+  "value_multiplier": 1.0,
+  "baseline_profit_usd": 1842371.2925038897,
+  "optimized_profit_usd": 1911035.4275078676,
+  "incremental_acquisitions": 14030.786509622265,
+  "contribution_usd": 3230149.891944985,
+  "payouts_usd": 319114.46443711786,
+  "projected_roi": 1.4487260044740167,
+  "solver_message": "Optimization terminated successfully",
+  "concave_objective": true,
+  "limitation": "Independent assumed response curves; campaign budget excludes additional payouts. Negative net values can make objective nonconcave; local SLSQP solution only."
+}
+Exit code: 0
